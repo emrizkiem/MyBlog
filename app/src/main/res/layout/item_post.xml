@@ -33,6 +33,8 @@
             android:layout_weight="1"
             android:layout_marginStart="10dp"
             android:gravity="center_vertical"
+            android:fontFamily="@font/senbold"
+            android:textStyle="bold"
             tools:text="emrizkiem" />
 
         <androidx.appcompat.widget.AppCompatImageView
