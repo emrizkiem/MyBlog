@@ -9,3 +9,4 @@ This repository is an example implement design pattern mvvm.
 - Repository
 - Room
 - Navigation
+- Glide
