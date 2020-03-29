@@ -31,7 +31,6 @@ public class HomeViewModel extends ViewModel {
         post.setImagePath("https://avatars0.githubusercontent.com/u/26673503?s=400&u=0e18d02456aba966bb18f7724aaf82c49d7de451&v=4");
         post.setAvatarPath("https://avatars0.githubusercontent.com/u/26673503?s=400&u=0e18d02456aba966bb18f7724aaf82c49d7de451&v=4");
         postList.add(post);
-        postList.add(post);
         ldPostList.setValue(postList);
         return ldPostList;
     }
