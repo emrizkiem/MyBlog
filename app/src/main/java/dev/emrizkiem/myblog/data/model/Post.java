@@ -1,10 +1,26 @@
 package dev.emrizkiem.myblog.data.model;
 
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity
 public class Post {
+
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id")
     private int id;
+
+    @ColumnInfo(name = "username")
     private String username;
+
+    @ColumnInfo(name = "caption")
     private String caption;
+
+    @ColumnInfo(name = "imagePath")
     private String imagePath;
+
+    @ColumnInfo(name = "avatarPath")
     private String avatarPath;
 
     public Post() {
