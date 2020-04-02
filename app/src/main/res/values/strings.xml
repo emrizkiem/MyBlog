@@ -6,4 +6,6 @@
     <string name="account">Account</string>
     <string name="add_post">Add Post</string>
     <string name="search">Search</string>
+    <string name="hint_caption">Tulis Keterangan...</string>
+    <string name="save">Simpan</string>
 </resources>
